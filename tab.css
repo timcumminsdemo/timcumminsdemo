@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Gotham Rounded;
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Book.eot);
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Book.woff2) format("woff2"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Book.woff) format("woff"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Book.ttf) format("truetype"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Book.eot?#iefix) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Gotham Rounded;
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.eot);
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.woff2) format("woff2"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.woff) format("woff"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.eot?#iefix) format("embedded-opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Gotham Rounded;
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Bold.eot);
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Bold.woff2) format("woff2"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Bold.woff) format("woff"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Bold.ttf) format("truetype"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Bold..eot?#iefix) format("embedded-opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Gotham Rounded;
+    src: url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.woff2) format("woff2"), url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.woff) format("woff"),
+        url(https://robincontentdesktop.blob.core.windows.net/css/fonts/GothamRnd-Medium.otf) format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {font-size: 16px;}
+
+#robin_popover {
+	border-radius: 16px !important;
+	border: 2px solid #ebecee !important;
+	bottom: 30px !important;
+	box-shadow: 0 24px 24px -16px rgba(16,30,30,.5) !important;
+	overflow: hidden;
+	background-color: #FFF;
+}
+
+#robin_tab {
+	background-color: #e6f2ff !important;
+	height: 40px !important;
+	line-height: 40px !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+#robin_tab:hover {
+	background-color: #cce5ff !important;
+}
+#robin_tab_div {
+	color: #007fff !important;
+	line-height: 40px !important;
+	height: 40px !important;
+	text-transform: none !important;
+	letter-spacing: 0 !important;
+	padding: 0 20px !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	font-family: Gotham Rounded,Arial,Helvetica,sans-serif !important;
+	font-weight: 700 !important;
+	font-size: .875rem !important;
+	position: relative !important;
+}
+#robin_tab.robin-online #robin_tab_div {
+	padding: 0 16px 0 20px !important;
+	margin-right: 40px !important;
+}
+#robin_tab:hover #robin_tab_div {
+	color: #0658a5 !important;
+}
+#robin_tab.robin-online div:last-child, #robin_tab.robin-online div:last-child img {
+	width: 40px !important;
+	height: 40px !important;
+	right: 0 !important;
+	top: 0 !important;
+}
+#robin_tab_icon {
+	background-color: #3EDB96 !important;
+	width: 8px !important;
+	height: 8px !important;
+	top: 0 !important;
+    right: 0 !important;
+    border: 1px #FFF solid !important;
+}
+/* PAC */
+#robin_pac_invite {
+	box-shadow: 0 24px 24px -16px rgba(16,30,30,.5) !important;
+	border: 2px solid #ebecee !important;
+
+}
+#rbn_journey_arrow {
+	-webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    box-shadow: none !important;
+}
+#rbn_pac_caption {
+	font-size: 100% !important;
+	font-family: Gotham Rounded,Arial,Helvetica,sans-serif !important;
+	color: #344055 !important;
+}
+#rbn_journey_input {
+	line-height: 38px !important;
+	padding: 0 20px !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	color: rgb(52, 64, 85) !important;
+	border-radius: 50px !important;
+	border: 1px solid rgba(52, 64, 85, 0.1) !important;
+}
+#rbn_journey_input::placeholder {
+	color: rgba(52, 64, 85, 0.25) !important;
+}
+#rbn_journey_button, #rbn_pac_yes {
+	border-radius: 0 40px 40px 0 !important;
+	padding: 0 20px !important;
+	background-color: #007FFF !important;
+}
+#rbn_journey_button:hover, #rbn_pac_yes:hover {
+	background-color: #0658a5 !important;
+}
+#rbn_journey_button_text, #rbn_pac_yes {
+	padding: 0 !important;
+	text-transform: none !important;
+	font-size: .875rem !important;
+}
+#rbn_pac_yes {
+	padding: 12px 20px !important;
+	line-height: 40px !important;
+	border-radius: 40px !important;
+}
+
+#rbn_pac_no {
+	background-color: transparent !important;
+	color: #007FFF !important;
+	text-transform: none !important;
+	font-weight: 600 !important;
+	font-size: .875rem !important;
+}
+#rbn_pac_no:hover {
+	color: rgba(0, 127, 255, 0.5) !important;
+}
+/* MOBILE */
+@media only screen and (max-device-width: 767px) {
+	#robin_tab_container {
+		right: 30px !important;
+    }
+    #robin_pac_invite {
+		display: none !important;
+	}
+	#robin_tab {
+		background: #FFF !important;
+		padding: 0px !important;
+		height: 40px !important;
+		width: 40px !important;
+		border-radius: 40px !important;
+		border: 0;
+		position: relative !important;
+		background: #FFF !important;
+	}
+	#robin_tab:hover {
+		background: transparent !important;
+	}
+	#robin_tab.robin-online #robin_tab_div {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	#robin_tab.robin-online div:last-child, #robin_tab.robin-online div:last-child img {
+		width: 40px !important;
+        height: 40px !important;
+        border-radius: 40px !important;
+        left: 0 !important;
+        top: 0 !important;
+	}
+	#robin_tab img {
+		margin: 0;
+    }
+	#robin_tab_div {
+	    background-color: #e6f2ff !important;
+	    z-index: 99999993 !important;
+	    padding: 0px !important;
+	    margin: 0px !important;
+		border-radius: 40px !important;
+ 	    height: 40px !important;
+	    width: 40px !important;
+	    text-indent: -999999999999px !important;
+	}
+	/*-------- online -------- */
+	#robin_tab.robin-online #robin_tab_div  {
+	    background-image: url(https://robincontentdesktop.blob.core.windows.net/css/icons/icon-chat.svg) !important;
+	    margin-right: 0 !important;
+	}
+	/*-------- offline -------- */
+	#robin_tab #robin_tab_div  {
+	    background-image: url(https://robincontentdesktop.blob.core.windows.net/css/icons/cm-envelope-icon.svg) !important;
+	    background-repeat: no-repeat !important;
+	    background-size: 20px !important;
+	    background-position: center center !important;
+	}
+}
